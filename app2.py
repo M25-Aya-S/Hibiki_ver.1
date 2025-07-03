@@ -1,9 +1,8 @@
 # app.py
 import streamlit as st
-from openai import OpenAI
+import openai
 
-# --- ここはあなたのAPIキー ---
-client = OpenAI(api_key=st.secrets["OPENAI_API_KEY"])
+client = openai.OpenAI(api_key=st.secrets["OPENAI_API_KEY"])
 
 # --- ひびきの人格（LLM1のシステムプロンプト） ---
 SYSTEM_PROMPT = """
