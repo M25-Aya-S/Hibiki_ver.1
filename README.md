@@ -1,4 +1,4 @@
-# Hibiki_ver.1（hibili_fresh/app2.py）
+# Hibiki_ver.1（hibiki_fresh/app2.py）
 ひびきの最初のバージョンです。
 ひびきの人格がシステムプロンプトに入っています。
 記憶機能はまだありません。（LLMを2つ使っていますが、あまり意味はなしていません。）
